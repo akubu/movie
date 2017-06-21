@@ -1,0 +1,6 @@
+<div class="row">
+  <div class="col-xs-12">
+    <img *ngIf="showLoader" src="./ajax-loader.gif">
+    <app-movie-item *ngFor="let movie of movies" [newMovie]="movie"  (selectedMovie)="onSelected(movie)"></app-movie-item>
+  </div>
+</div>

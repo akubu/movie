@@ -1,0 +1,8 @@
+<div class="row">
+  <div class="col-md-5">
+    <app-movie-list (selectedMovie)="onSelect($event)"></app-movie-list>
+  </div>
+  <div class="col-md-7">
+    <app-movie-detail [movie]="movieForDetails" *ngIf="showMovieDetails"></app-movie-detail>
+  </div>
+</div>
