@@ -1,0 +1,7 @@
+1) check if Node installed (https://nodejs.org/en/)
+2) clone the project and inside the directory
+3) npm install
+4) Please install angular-cli
+5) run ng-serve
+6) go to browser it will be serving on localhost:4200/
+(As of now I have hardcoded values at the frontend but i have made service which is pulling data from the backend)
